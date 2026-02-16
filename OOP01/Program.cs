@@ -57,6 +57,18 @@ namespace OOP01
             #endregion
 
 
+            #region Question03
+            // Describe the steps to create and use a class library in Visual Studio.
+
+            /* Create a Class Library project
+             * Write your class in the library
+             * Create (or use) another project to use the library
+             * Add reference to the Class Library
+             * Use the class from the library
+             */
+            #endregion
+
+
         }
     }
 }
