@@ -69,6 +69,16 @@ namespace OOP01
             #endregion
 
 
+            #region Question04
+            // What is a class library? Why do we use class libraries?
+
+            // What is a class library -> is a separate project that contains reusable classes, but has no Main method and cannot run on its own. It compiles into a .dll file (Dynamic Link Library).
+
+            // Why do we use class libraries? -> Reusability - Organization - Teamwork - Maintenance 
+            #endregion
+
+
+
         }
     }
 }
