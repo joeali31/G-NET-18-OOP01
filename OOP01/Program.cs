@@ -79,6 +79,108 @@ namespace OOP01
 
 
 
+            #region Part02 Movie Ticket Booking System
+            //// ===== Movie Name =====
+            //Console.Write("Enter Movie Name: ");
+            //string? movieName = Console.ReadLine();
+
+            //// ===== TicketType =====
+            //TicketType type;
+            //while (true)
+            //{
+            //    Console.Write("Enter Ticket Type (0 = Standard , 1 = VIP , 2 = IMAX ): ");
+            //    int typeNumber;
+            //    bool isparsed = int.TryParse(Console.ReadLine(), out typeNumber);
+
+            //    if (isparsed)
+            //    {
+            //        if (typeNumber == 0 || typeNumber == 1 || typeNumber == 2)
+            //        {
+            //            type = (TicketType)typeNumber;
+            //            break;
+            //        }
+            //    }
+
+            //}
+
+            //// ===== Seat Row =====
+            //char SeatRow;
+            //while (true)
+            //{
+            //    Console.Write("Enter Seat Row (A, B, C...): ");
+            //    bool isparsed = char.TryParse(Console.ReadLine() , out SeatRow);
+            //    if (isparsed) 
+            //    {
+            //        if (SeatRow == 'A' || SeatRow == 'B' || SeatRow == 'C')
+            //        {
+            //            break;
+            //        }
+            //    }
+            //}
+
+            //// ===== Seat Number =====
+            //int SeatNumber;
+            //while (true)
+            //{
+            //    Console.Write("Enter Seat Number: ");
+            //    bool isparsed = int.TryParse(Console.ReadLine(), out SeatNumber);
+
+            //    if (isparsed)
+            //    {
+            //        break;
+            //    }
+
+            //}
+
+            //// ===== Enter Price =====
+            //double Price;
+            //while (true)
+            //{
+            //    Console.Write("Enter Price: ");
+            //    bool isparsed = double.TryParse(Console.ReadLine(),out Price);
+
+            //    if (isparsed)
+            //    {
+            //        break;
+            //    }
+            //}
+
+            //// ===== Enter Discount =====
+            //double Discount;
+            //while (true)
+            //{
+            //    Console.Write("Enter Discount Amount: ");
+            //    bool isparsed = double.TryParse(Console.ReadLine() , out Discount);
+
+            //    if (isparsed)
+            //    {
+            //        break;
+            //    }
+
+            //}
+
+            //// ===== create an object from ticket =====
+            //Ticket ticket = new Ticket(movieName , type , new Struct.Seat(SeatRow , SeatNumber) , Price);
+
+            //// ===== ticket info =====
+            //Console.WriteLine();
+            //ticket.PrintTicket();
+            //Console.WriteLine($"Total (14% tax) : {ticket.CalcTotal(14)}");
+
+            //// ===== after Discount =====
+            //Console.WriteLine();
+            //Console.WriteLine("===== After Discount =====");
+            //Console.WriteLine($"Discount Before : {Discount}");
+            //ticket.ApplyDiscount(ref Discount);
+            //Console.WriteLine($"Discount After  : {Discount}");
+            //Console.WriteLine($"Movie       : {ticket.MovieName}");
+            //Console.WriteLine($"Type        : {ticket.Type}");
+            //Console.WriteLine($"Seat        : {ticket.Seat}");
+            //Console.WriteLine($"Price       : {ticket.GetPrice()}");
+            //Console.WriteLine($"Total (14% tax) : {ticket.CalcTotal(14)}");
+
+            #endregion
+
         }
     }
 }
